@@ -6,7 +6,7 @@ var Schema = mongoose.Schema;
 
 var LocationSchema = new Schema({
 	user: String,
-	created: {type: Date, default: Date.now},
+	created: { type: Date, default: Date.now },
 	location: Object
 });
 
